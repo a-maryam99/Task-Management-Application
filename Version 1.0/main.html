@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>
+        Task Management Application
+    </title>
+    <link rel="stylesheet" href="resources\stylesheets\main-style.css">
+    <link rel="stylesheet" href="resources\stylesheets\modal-style.css">
+    <link rel="stylesheet" href="resources\stylesheets\icon-style.css">
+    <link rel="stylesheet" href="resources\stylesheets\font-style.css">
+    <script src="resources\scripts\task-management.js"></script>
+    <script>
+        window.onload = function () {
+            TaskManagement.init();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Task Management Application</h1>
+    </header>
+    <nav>
+        <button id="btnNew" title="New Task" class="new-button">New</button>
+    </nav>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="tasks-body">
+            </tbody>
+        </table>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="medium-title-container">
+                    <i id="btnClose" class="icon-cross close-button"></i>
+                    <span class="medium-title">New Task</span>
+                </div>
+                <table>
+                    <tr>
+                        <td class="new-group-label"><label for="txtDescription">Description</label></td>
+                        <td class="new-group-value"><textarea id="txtDescription" rows="10"
+                                placeholder="write here ..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="new-group-value" colspan="2"><button id="btnAdd" title="Add Task"
+                                class="big-button">Add</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

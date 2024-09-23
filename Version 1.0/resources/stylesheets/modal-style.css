@@ -1,0 +1,81 @@
+        .modal-container {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            margin: auto;
+            padding: 50px;
+            border: none;
+            width: 60%;
+        }
+
+        .modal-content table {
+            background-color: white;
+            border-radius: 5px;
+
+        }
+
+        .close-button {
+            color: #aaaaaa;
+            float: right;
+            font-weight: bold;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: #f5c885;
+            cursor: pointer;
+        }
+
+        .medium-title-container {
+            padding: 5px 10px 3px 10px;
+            background-color: rgb(19, 111, 183);
+            border-radius: 5px;
+            color: #fefefe;
+            min-height: 20px;
+        }
+
+        .medium-title {
+            padding: 10px;
+            padding-top: 25px;
+            vertical-align: middle;
+        }
+
+        .new-group-label {
+            background-color: #D2E5F4;
+            padding: 10px;
+
+        }
+
+        .new-group-value {
+            width: 100%;
+
+        }
+
+        .new-group-value textarea {
+            resize: none;
+            width: 100%;
+            border: none;
+        }
+
+        .big-button {
+            background-image: linear-gradient(#f7f8fa, #e7e9ec);
+            border: 1px solid #adb1b8;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 20px;
+            height: 60px;
+            width: 100%;
+        }
+
+        .big-button:hover {
+            box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+        }

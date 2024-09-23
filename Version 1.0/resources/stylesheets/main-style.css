@@ -1,0 +1,86 @@
+        body {
+            font-family: TahomaFont;
+            margin: 0;
+        }
+
+        header {
+            border: 1px solid rgb(17, 75, 140);
+            padding: 17px;
+            width: 100%;
+            background: -webkit-linear-gradient(left, rgb(17, 75, 140), rgba(125, 185, 232, .07));
+            box-sizing: border-box;
+            color: white;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        .new-button {
+            border: 1px solid rgb(17, 75, 140);
+            padding: 5px 10px;
+            box-shadow: 2px 2px 15px rgb(17, 75, 140);
+            cursor: pointer;
+            margin: 15px;
+            border-radius: 10px;
+            min-width: 80px;
+        }
+
+        .new-button:hover {
+            background-color: rgb(19, 111, 183);
+            color: white;
+        }
+
+        .tasks-body :nth-child(odd) td {
+            background-color: #e1ddd4;
+        }
+
+        .tasks-body :nth-child(even) td {
+            background-color: #e1eaf5;
+        }
+
+        th {
+            background-color: #a0bce1;
+            min-width: 100px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            vertical-align: middle;
+
+        }
+
+        .description-td .done {
+            text-decoration: line-through;
+        }
+
+        .status-td span {
+            border-radius: 30px;
+            padding: 4px 20px 4px 20px;
+            min-width: 100px;
+        }
+
+        .status-td .done {
+            background: #cff6dd;
+            color: #1fa750;
+        }
+
+        .status-td .todo {
+            background: #fdf5dd;
+            color: #cfa00c;
+        }
+
+        .action-button {
+            padding: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .text-green {
+            color: #008000;
+        }
+
+        .text-red {
+            color: #bb0000;
+        }
